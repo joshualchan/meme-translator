@@ -1,1 +1,1 @@
-document.getElementById("url").innerHTML = window.location.search;
+document.getElementById("write").innerHTML = window.location.search;
