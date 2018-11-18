@@ -14,7 +14,7 @@ def trans():
     url = request.form['url']
     result = translate(url)
     print(request.form['url'])
-    return render_template('translation.html', result=result)
+    return render_template('translation.html', result=result, img_url = url)
 
 if __name__ =="__main__":
     app.run(debug=True)
